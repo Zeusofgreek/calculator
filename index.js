@@ -1,0 +1,102 @@
+var input=document.getElementById("question");
+document.getElementById("btn9").onclick=function()
+{
+    input.value+=9;
+    event.preventDefault();
+}
+document.getElementById("btn8").onclick=function()
+{
+    input.value+=8;
+    event.preventDefault();
+}
+document.getElementById("btn7").onclick=function()
+{
+    input.value+=7;
+    event.preventDefault();
+}
+document.getElementById("btnmultiply").onclick=function()
+{
+    input.value+='*';
+    event.preventDefault();
+}
+document.getElementById("btn6").onclick=function()
+{
+    input.value+=6;
+    event.preventDefault();
+}
+document.getElementById("btn5").onclick=function()
+{
+    input.value+=5;
+    event.preventDefault();
+}
+document.getElementById("btn4").onclick=function()
+{
+    input.value+=4;
+    event.preventDefault();
+}
+document.getElementById("btnminus").onclick=function()
+{
+    input.value+='-';
+    event.preventDefault();
+}
+document.getElementById("btn3").onclick=function()
+{
+    input.value+=3;
+    event.preventDefault();
+}
+document.getElementById("btn2").onclick=function()
+{
+    input.value+=2;
+    event.preventDefault();
+}
+document.getElementById("btn1").onclick=function()
+{
+    input.value+=1;
+    event.preventDefault();
+}
+document.getElementById("btnplus").onclick=function()
+{
+    input.value+='+';
+    event.preventDefault();
+}
+document.getElementById("btnallclear").onclick=function()
+{
+    input.value="";
+    event.preventDefault();
+}
+document.getElementById("btn0").onclick=function()
+{
+    input.value+=0;
+    event.preventDefault();
+}
+document.getElementById("btnequal").onclick=function()
+{
+    var ans=input.value;
+    input.value=eval(ans);
+    event.preventDefault();
+}
+document.getElementById("btndivide").onclick=function()
+{
+    input.value+='/';
+    event.preventDefault();
+}
+document.getElementById("btnpoint").onclick=function()
+{
+    input.value+='.';
+    event.preventDefault();
+}
+document.getElementById("btnmodulus").onclick=function()
+{
+    input.value+='%';
+    event.preventDefault();
+}
+document.getElementById("btndoublezero").onclick=function()
+{
+    input.value+=00;
+    event.preventDefault();
+}
+document.getElementById("btnrandom").onclick=function()
+{
+    input.value=Math.floor(Math.random()*10+1);
+    event.preventDefault();
+}
