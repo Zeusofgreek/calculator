@@ -41,14 +41,11 @@ fieldset{
     color: white;
     background-color: black;
 }
-#btndoublezero{
-    margin-right: none;
-}
 #btnrandom{
     position: absolute;
     margin-left: none;
     margin-right: none;
     padding: none;
-    width: 80px;
-   font-size: .5em;
+    width: 150px;
+   font-size: 1em;
 }
