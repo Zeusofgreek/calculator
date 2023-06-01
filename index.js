@@ -92,7 +92,7 @@ document.getElementById("btnmodulus").onclick=function()
 }
 document.getElementById("btndoublezero").onclick=function()
 {
-    input.value+=00;
+    input.value+=000;
     event.preventDefault();
 }
 document.getElementById("btnrandom").onclick=function()
