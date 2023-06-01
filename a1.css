@@ -7,7 +7,7 @@ body{
 }
 legend{
 font-family: sans-serif;
-    text-decoration: underline 2px dotted;
+    text-decoration: underline 2px solid #dfe9ec;
 }
 form{
     width: 400px;
