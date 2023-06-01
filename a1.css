@@ -5,6 +5,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+legend{
+font-family: sans-serif;
+    text-decoration: underline 2px dotted;
+}
 form{
     width: 400px;
     display: block;
