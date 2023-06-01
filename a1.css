@@ -44,6 +44,7 @@ fieldset{
     position: absolute;
     margin-left: none;
     margin-right: none;
+    padding: none;
     width: 80px;
    font-size: .5em;
 }
