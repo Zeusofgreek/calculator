@@ -1,3 +1,4 @@
+import Math
 var input=document.getElementById("question");
 document.getElementById("btn9").onclick=function()
 {
