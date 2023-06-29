@@ -97,6 +97,6 @@ document.getElementById("btndoublezero").onclick=function()
 }
 document.getElementById("btnrandom").onclick=function()
 {
-    input.value=Math.floor((Math.random()*10)+1);
+    input.value=Math.random()*10;
     event.preventDefault();
 }
